@@ -89,7 +89,9 @@ function App() {
             <Route index element={<ChatPage />} />
             <Route path=":userId" element={<ChatPage />} />
           </Route>
-          
+          <Route path="/meetings" element={<Meetings />} />
+
+          <Route path="/video" element={<VideoCall />} />
           {/* Redirect root to login */}
           <Route path="/" element={<Navigate to="/login" replace />} />
           
