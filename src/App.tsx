@@ -30,6 +30,9 @@ import { DealsPage } from './pages/deals/DealsPage';
 // Chat Pages
 import { ChatPage } from './pages/chat/ChatPage';
 
+import VideoCall from "./pages/VedioCall"; 
+import Meetings from "./pages/Meetings";
+
 function App() {
   return (
     <AuthProvider>

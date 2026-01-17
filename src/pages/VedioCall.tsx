@@ -1,8 +1,8 @@
 
 import { useEffect } from "react";
-import { io, Socket } from "socket.io-client";
+import ioClient from "socket.io-client";
 
-const socket: Socket = io("http://localhost:5000");
+const socket = ioClient("http://localhost:5000");
 
 export default function VideoCall() {
 
